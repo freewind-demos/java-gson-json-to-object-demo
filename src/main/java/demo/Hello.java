@@ -13,8 +13,11 @@ class User {
 public class Hello {
 
     public static void main(String[] args) {
-        String json = new Gson().toJson(new User("java"));
-        System.out.println(json);
+        var json = """
+                {"name": "Hello"}
+                """;
+        var user = new Gson().fromJson(json, User.class);
+        System.out.println(user);
     }
 
 }
