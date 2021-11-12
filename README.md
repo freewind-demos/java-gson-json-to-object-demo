@@ -1,4 +1,6 @@
-Java Gson Json to List Demo
+Java Gson Object to JSON Demo
 ===========================
 
-Run `Hello.java` in your IDE.
+```
+./run.sh
+```
